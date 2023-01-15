@@ -1,7 +1,9 @@
 <ul>
     <li *ngFor="let item of products">
         <input type="checkbox" [(ngModel)]="item.check" name="" id="">
-        <label for="product name" appAddCustomEvent appAddCustomAttribute appAddCustomStyle appAddCustomStyle *ngIf="item.check ?'appToogleVisibility':''">{{item.label}}</label>
+        <label for="product name" appAddCustomEvent appAddCustomAttribute appAddCustomStyle appAddCustomStyle *ngIf="item.check ?'appToogleVisibility':''">
+            {{item.label}}
+        </label>
     </li>
 </ul>
-<p >Is normal one</p
+
