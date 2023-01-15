@@ -8,35 +8,27 @@ import { Component } from '@angular/core';
 export class ListOfItemsComponent {
  
  
-  items=[
+  items : {check:boolean;label:string}[] = [
   {
     check:false,
-    label:"Samsung S20"
+    label:"Iphone 4"
   },
   {
     check:false,
-    label:"Samsung A10"
+    label:"LG"
   },
   {
     check:true,
-    label:"Hp m-convertible"
-  },
-  {
-    check:false,
-    label:"Imprimante VHT"
-  },
-  {
-    check:true,
-    label:" GUCCI "
+    label:"Macbook pro"
   },
   {
     check:false,
     label:"Drone"
   },
-  {
-    check:true,
-    label:"Itel Hp45"
-  }
 ]
+  
+  constructor(){
+  }
+  
 
 }
