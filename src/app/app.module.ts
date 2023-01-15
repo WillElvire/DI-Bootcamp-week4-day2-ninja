@@ -3,7 +3,7 @@ import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { HandlingDirectivesModule } from './handling-directives/handling-directives.module';
+import { HandlingDirectivesModule } from './modules/handling-directives.module';
 import { ListOfItemsComponent } from './list-of-items/list-of-items.component';
 
 @NgModule({

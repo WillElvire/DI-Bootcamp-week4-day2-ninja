@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ToogleVisibilityDirective } from './toogle-visibility.directive';
-import { AddCustomAttributeDirective } from './add-custom-attribute.directive';
-import { AddCustomStyleDirective } from './add-custom-style.directive';
-import { AddCustomEventDirective } from './add-custom-event.directive';
+import { ToogleVisibilityDirective } from '../handling-directives/toogle-visibility.directive';
+import { AddCustomAttributeDirective } from '../handling-directives/add-custom-attribute.directive';
+import { AddCustomStyleDirective } from '../handling-directives/add-custom-style.directive';
+import { AddCustomEventDirective } from '../handling-directives/add-custom-event.directive';
 
 
 
