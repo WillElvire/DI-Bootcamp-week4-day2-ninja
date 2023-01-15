@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class ListOfItemsComponent {
  
  
-  items : {check:boolean;label:string}[] = [
+  products : {check:boolean;label:string}[] = [
   {
     check:false,
     label:"Iphone 4"
